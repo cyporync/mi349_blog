@@ -79,7 +79,7 @@ main {
     justify-content: center;
     gap: 2rem;
     margin: 2rem auto;
-    width: 100%;
+    width: 90%;
     max-width: 90vw;
 }
 
@@ -224,6 +224,7 @@ textarea {
 }
 
 /* ABOUT */
+
 .about {
     width: 70vw;
     height: auto;
