@@ -5,29 +5,29 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Claire Cyporyn">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-	<title>Claire's Blog - Home</title>
+	<link rel="stylesheet" href="style.css">
+	<title>Claire's Blog &mdash; Home</title>
 </head>
 
 <body>
 	<header>
-		<h1>Claire's Blog</h1>
-		<p>Thoughts, observations, and stories from my life.</p>
+		<h1 id="site-title">Claire's Blog</h1>
+		<p id="tagline">Thoughts, observations, and stories from my life.</p>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
 	</header>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
 
 	<main>
 		<section>
 			<h2>Latest posts</h2>
-			<article>
+			<article class="post">
 				<h3>Music & Mood</h3>
-				<p>By <span>Claire Cyporyn</span> - <time datetime="2025-09-28">September 28, 2025</time></p>
+				<p>By <span>Claire Cyporyn</span> &mdash; <time datetime="2025-09-28">September 28, 2025</time></p>
 				<figure>
 					<img src="spotifyplaylists.png" alt="Names and covers of my Spotify playlists" loading="lazy">
 					<figcaption>My Spotify playlists over the past year (newest to oldest, left to right).</figcaption>
@@ -39,7 +39,7 @@
 				<p>Below are songs I listened to yesterday, and the mood I was in while I was listening.</p>
 
 				<table>
-					<caption><time datetime="2025-09-27">September 27, 2025</time> - Songs & My Mood</caption>
+					<caption>Songs & My Mood &mdash; <time datetime="2025-09-27">September 27, 2025</time></caption>
 					<thead>
 						<tr>
 							<th>Song</th>
@@ -84,10 +84,11 @@
 					more. A new part of myself.</p>
 			</article>
 
-			<article>
+			<article class="post">
 				<h3>My Guitar Journey</h3>
-				<p>By <span>Claire Cyporyn</span> - <time datetime="2025-09-26">September 26, 2025</time></p>
-				<figure>
+				<p>By <span>Claire Cyporyn</span> &mdash; <time datetime="2025-09-26">September 26, 2025</time>
+				</p>
+				<figure id="paul-figure">
 					<img src="https://i.pinimg.com/736x/13/0f/1a/130f1ae6ecc30e201badb9f0b4e36b2b.jpg"
 						alt="Paul McCartney playing acoustic guitar" loading="lazy">
 					<figcaption>Paul McCartney playing acoustic guitar.</figcaption>
